@@ -8,7 +8,7 @@ function App() {
       <div className="App-mainDiv">
       <div className="App-mainDiv-leftDiv"></div>
       <div className="App-mainDiv-rightDiv" >
-        <img src={project1}></img>
+        <img className="App-mainDiv-rightDiv-image" src={project1}></img>
         
       </div>
       </div>
