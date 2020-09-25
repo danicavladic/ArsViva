@@ -140,7 +140,7 @@
 
 .svi {
   margin-right: 490px;
-  margin-top: 35px;
+  margin-top: 110px;
   border: none;
   background-color: rgb(36, 47, 53);
   color: white;
@@ -148,12 +148,12 @@
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 20px;
-  padding-bottom: 12px;
+  padding-bottom: 10px;
 }
 
 .crta {
   border-top: 1px solid white;
-  opacity: 0.3;
+  opacity: 0.5;
   margin-top: 50px;
   width: 450px;
 }
@@ -161,14 +161,14 @@
 .vertikalnaCrta {
   border-left: 1px solid white;
   height: 750px;
-  opacity: 0.3;
+  opacity: 0.5;
   margin-left: 450px;
   margin-top: -17px;
 }
 
 .crta2 {
   border-top: 1px solid white;
-  opacity: 0.3;
+  opacity: 0.5;
   margin-top: 54px;
   width: 450px;
 
@@ -179,6 +179,65 @@
   height: 650px;
   margin-top: 18px;
   
+}
+
+.drugaCrta {
+  border-top: 1px solid white;
+  opacity: 0.5;
+  margin-top: -620px;
+  margin-left: 10px;
+
+}
+
+.trecaCrta {
+  margin-left: 10px;
+  border-top: 1px solid white;
+  opacity: 0.5;
+  margin-top: 590px;
+}
+
+.cetvrtaCrta {
+  border-left: 1px solid white;
+  height: 590px;
+  opacity: 0.5;
+  margin-top: -607px;
+  margin-left: 10px;
+}
+
+.petaCrta {
+  border-left: 1px solid white;
+  height: 300px;
+  opacity: 0.5;
+  margin-top: -560px;
+  margin-left: 30px;
+}
+
+.fa-facebook-f {
+  color: white;
+}
+
+.facebook {
+  margin-top: 150px;
+  margin-left: 10px;
+  width: 50px;
+}
+
+.fa-instagram {
+  color : white;
+}
+
+.instagram {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 50px;
+}
+
+
+
+.helpDiv {
+  background-color: white;
+  height: 50px;
+
 }
 
 
