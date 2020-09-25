@@ -49,7 +49,7 @@ function Footer() {
                 </div>
               </div>
             </section>
-            <div className="copyright">D&D ©2020</div>
+            <div className="copyright">D&D 2020©</div>
           </div>
         </div>
       </div>

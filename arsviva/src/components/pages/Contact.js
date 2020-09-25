@@ -7,7 +7,7 @@ function Contact() {
   return (
     <>
       
-   
+   <Footer />
       
     </>
   );
