@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+
+ .App-mainDiv-leftDiv {
+   background-color: white;
+   width: 66%;
+   height: 100%;
+   display: inline-block;
+   float: left;
+   
+}
+
+.App-mainDiv-rightDiv {
+  background-color: rgb(36, 47, 53);
+  width: 34%;
+  height: 100%;
+  display: inline-block;
+}
+
+.App-mainDiv {
+  display: inline;
+  width: 100%;
+  height: 100%; 
+}
+
+.App-mainDiv-rightDiv-image {
+    width: 900px;
+    height: 593px;
+    background-color: black;
+    position: absolute;
+    left: 0; 
+    bottom: 120px;
+    right: 30px;
+    margin: auto;
+}
