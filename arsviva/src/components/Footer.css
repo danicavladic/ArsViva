@@ -1,0 +1,197 @@
+.footer-container {
+    background-color: #f2f2f2;
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .footer-links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-left: 100px;
+  }
+  
+  .footer-link-wrapper {
+    display: flex;
+  }
+  
+  .footer-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: right;
+    width: 160px;
+    box-sizing: border-box;
+    margin-right: 120px;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+
+  .footer-link-items1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: right;
+    width: 160px;
+    box-sizing: border-box;
+    margin-right: 200px;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+  
+  .footer-link-items h2 {
+    margin-bottom: 16px;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+  
+  .footer-link-items > h2 {
+    color: black;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+
+  .footer-link-items1 > h2 {
+    color: black;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+  
+  .footer-link-items a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+
+  .footer-link-items1 a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+  
+  .footer-link-items a:hover {
+    color: black;
+    transition: 0.3s ease-out;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+
+  .footer-link-items1 a:hover {
+    color: black;
+    transition: 0.3s ease-out;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+  
+  
+  
+  /* Social Icons */
+  .social-icon-link {
+    color: black;
+    font-size: 24px;
+  }
+  
+  .social-media {
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+  }
+  
+  .social-logo {
+    color: black;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .website-rights {
+    color: black;
+    margin-bottom: 16px;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .footer-links {
+      padding-top: 2rem;
+    }
+  
+    .footer-input {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .footer-link-wrapper {
+      flex-direction: column;
+    }
+  
+    .social-media-wrap {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+  }
+
+  .kontaktic {
+    margin-bottom: 50px;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+
+  .kontakt {
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+
+  .adresa {
+    font-family: 'Baloo Tammudu 2', cursive;
+  }
+
+  .arsviva {
+    color: #808080;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: -35px;
+  }
+
+  .copyright {
+    margin-left: 15px;
+    margin-top: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 28px;
+  }
+  
+  .tekstic {
+    margin-top: -30px;
+    margin-left: 400px;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 50px;
+  }

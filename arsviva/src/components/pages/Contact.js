@@ -3,14 +3,14 @@ import '../../App.css';
 import Footer from '../Footer';
 
 
-function Home() {
+function Contact() {
   return (
     <>
       
-     
+   <Footer />
       
     </>
   );
 }
 
-export default Home;
+export default Contact;
