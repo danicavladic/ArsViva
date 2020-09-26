@@ -10,6 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    width: 200px;
   }
   
   .navbar-container {
@@ -71,10 +72,11 @@
   }
   
   .nav-links2:hover {
-    border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
-    color: black;
+    border-bottom: none;
+    transition: none;
     text-decoration: none;
+    color: #808080;
+    
   }
   
   .nav-links:hover {
@@ -142,9 +144,8 @@
     }
   
     .nav-links2:hover {
-      background-color: #fff;
-      color: #242424;
-      border-radius: 0;
+      background-color: #808080;
+      color: #808080;
     }
   
     .navbar-logo {
@@ -190,4 +191,14 @@
       color: #242424;
       transition: 250ms;
     }
+  }
+
+  .fa-home {
+    color: black;
+    font-size: 0.5em;
+    
+  }
+
+  .bijeliTekst {
+    color: white;
   }

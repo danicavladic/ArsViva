@@ -4,6 +4,7 @@ import Footer from '../Footer';
 import GoogleMapReact from 'google-map-react'
 import '../Map.css'
 import Map from '../Map';
+import kontakt from '../kontakt.jpg';
 
 const location = {
   address: 'Pete Poljanice 10, Zagreb, Croatia.',
@@ -16,6 +17,7 @@ function Contact() {
   return (
     <>
     <div className="Mapa">
+      <img className="slikica" src={kontakt}></img>
     <Map location={location} zoomLevel={17} /> {/* include it here */}
     <Footer />
   </div>

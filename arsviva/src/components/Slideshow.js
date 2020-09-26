@@ -4,20 +4,21 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import first from './project1.jpg'
 
+
 function Slideshow() {
   
     return (
       <>
       
-      <Carousel >
+      <Carousel classname="App-mainDiv-rightDiv-image">
                 <div>
-                    <img className="App-mainDiv-rightDiv-image" src={first} />
+                    <img  src={first} />
                 </div>
                 <div>
-                    <img className="App-mainDiv-rightDiv-image" src={first} />
+                    <img  src={first} />
                 </div>
                 <div>
-                    <img className="App-mainDiv-rightDiv-image" src={first} />
+                    <img  src={first} />
                 </div>
             </Carousel>
     

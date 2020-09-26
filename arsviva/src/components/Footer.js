@@ -11,13 +11,13 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h4 className="kontakt">CONTACT</h4>
+            <h4 className="kontakt">CONTACT US</h4>
             <Link to='/'>danica.vladic@gmail.com</Link>
             <Link to='/'>099 639 4609</Link>
             <Link to='/'>2047/457</Link>
           </div>
           <div class='footer-link-items'>
-            <h4 className="adresa">ADDRESS</h4>
+            <h4 className="adresa">VISIT US</h4>
             <Link to='/'>Kobiljačka 50</Link>
             <Link to='/'>10361</Link>
             <Link to='/'>Sesvetski Kraljevec</Link>
