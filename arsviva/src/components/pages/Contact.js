@@ -7,7 +7,7 @@ import Map from '../Map';
 import kontakt from '../kontakt.jpg';
 
 const location = {
-  address: 'Pete Poljanice 10, Zagreb, Croatia.',
+  address: 'Kobiljačka 50, Zagreb, Croatia.',
   lat: 45.828580,
   lng: 16.072950,
 }
