@@ -34,7 +34,7 @@ function Home() {
           <div className="App-mainDiv-rightDiv" >
             <hr className="crta" />
             <div className="vertikalnaCrta"></div>
-            <img className="App-mainDiv-rightDiv-image" src={pp} ></img>
+            <Slideshow className="slideshow"/>
             
             <p className="naslov">WINTER</p>
             <p className="naslov2">FAIRYTALE</p>

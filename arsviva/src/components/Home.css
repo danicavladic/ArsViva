@@ -171,7 +171,7 @@
   .crta2 {
     border-top: 1px solid white;
     opacity: 0.5;
-    margin-top: 54px;
+    margin-top: 99px;
     width: 450px;
   
   }
@@ -240,6 +240,18 @@
     background-color: white;
     height: 50px;
   
+  }
+
+  .slideshow {
+    width: 988px;
+    height: 650px;
+    background-color: black;
+    position: absolute;
+    left: 0; 
+    bottom: 90px;
+    right: 200px;
+    margin-top:100px;
+    
   }
 
  

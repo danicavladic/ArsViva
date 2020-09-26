@@ -1,32 +1,84 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-import first from './project1.jpg'
+import React, {useState} from 'react';
+import {
+  View,
+  Text,
+  Image,
+  ScrollView,
+  useWindowDimensions,
+  StyleSheet,
+} from 'react-native';
+import project1 from './project1.jpg';
+import project2 from './2.jpg';
+import project3 from './3.jpg'
 
+const styles = StyleSheet.create({
+  pagination: {
+    flexDirection: 'row',
+    position: 'absolute',
+    bottom: -15,
+    left: 480,
+    alignSelf: 'center',
+  },
+  dot: {
+    color: '#888',
+    fontSize: 50,
+  },
+  activeDot: {
+    color: '#FFF',
+    fontSize: 50,
+  },
+ 
+  container: {
+      marginTop: '-695px',
+      marginLeft: '-828px',
 
-function Slideshow() {
+  },
+ 
+});
+export default function Slideshow({img}) {
+  const width = 988;
+  const height = 650;
   
-    return (
-      <>
-      
-      <Carousel classname="App-mainDiv-rightDiv-image">
-                <div>
-                    <img  src={first} />
-                </div>
-                <div>
-                    <img  src={first} />
-                </div>
-                <div>
-                    <img  src={first} />
-                </div>
-            </Carousel>
-    
-      
-     
-        
-      </>
+
+  const [active, setActive] = useState(0);
+
+  const images = [
+    project1,
+    project2,
+    project3,
+  ];
+
+  const change = ({nativeEvent}) => {
+    const slide = Math.ceil(
+      nativeEvent.contentOffset.x / nativeEvent.layoutMeasurement.width,
     );
-  }
-  /* <img className="App-mainDiv-rightDiv-image" src={pp} ></img> */
-  export default Slideshow;
+    if (slide !== active) {
+      setActive(slide);
+    }
+  };
+  return (
+    <View style={styles.container}>
+      <ScrollView 
+        pagingEnabled
+        horizontal
+        onScroll={change}
+        showHorizontalScrollIndicator={false}
+        style={{width, height}}>
+        {images.map((image, index) => (
+          <Image
+            key={index}
+            source={{uri: image}}
+            style={{width, height, resizeMode: 'cover'}}
+          />
+        ))}
+      </ScrollView>
+      <View style={styles.pagination}>
+        {images.map((i, k) => (
+          <Text key={k} style={k == active ? styles.activeDot : styles.dot}>
+            •
+          </Text>
+        ))}
+      </View>
+    </View>
+  );
+}
