@@ -8,15 +8,27 @@ import {
   StyleSheet,
 } from 'react-native';
 import project1 from './project1.jpg';
-import project2 from './2.jpg';
-import project3 from './3.jpg'
+import project2 from './6.jpg';
+import project3 from './3.jpg';
+import project4 from './5.jpg';
+import project5 from './7.jpg';
+import project6 from './4.jpg';
+import project7 from './slideshow1.jpg';
+import project8 from './slideshow2.jpg';
+import project9 from './slideshow4.jpg';
+import project10 from './slideshow5.jpg';
+import project11 from './slideshow6.jpg';
+import project12 from './slideshow7.jpg';
+import project13 from './karosel.jpg';
+import project14 from './karosel2.jpg';
+import project15 from './karosel3.jpg';
 
 const styles = StyleSheet.create({
   pagination: {
     flexDirection: 'row',
     position: 'absolute',
     bottom: -15,
-    left: 480,
+    left: 440,
     alignSelf: 'center',
   },
   dot: {
@@ -43,9 +55,14 @@ export default function Slideshow({img}) {
   const [active, setActive] = useState(0);
 
   const images = [
-    project1,
+    project4,
     project2,
     project3,
+    project1,
+    project5,
+    project7,
+    project8,
+    project10,
   ];
 
   const change = ({nativeEvent}) => {
