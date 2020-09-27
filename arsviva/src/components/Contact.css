@@ -1,0 +1,19 @@
+.contactPhoto {
+     
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    opacity: 0.85;
+}
+.leftContact {
+    margin-top:25px;
+    background-color:#f2f2f2;
+
+}
+.kontaktTekst {
+    color: black;
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 15px;
+    font-family: 'Baloo Tammudu 2', cursive;
+  }

@@ -5,8 +5,8 @@ import LocationPin from './LocationPin'
 
 const Map = ({ location, zoomLevel }) => (
     <div className="map">
-      <h2 className="map-h2">Come Visit Us At Our Campus</h2>
-  
+      <h2 className="map-h2">Come Visit Us At Our Studio: <h3 className="map-h3">Pete Poljanice 10, 10 040 Zagreb</h3></h2>
+      <div className="map-container">
       <div className="google-map">
         <GoogleMapReact
           bootstrapURLKeys={{ key: '' }}
@@ -19,6 +19,7 @@ const Map = ({ location, zoomLevel }) => (
             text={location.address}
           />
         </GoogleMapReact>
+      </div>
       </div>
     </div>
   )
