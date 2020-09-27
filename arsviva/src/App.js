@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 import Footer from './components/Footer';
 import Cards from './components/Cards';
 import Contact from './components/pages/Contact';
+import Studio from './components/pages/Studio';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/Contact' component={Contact} />
+          <Route path='/Studio' component={Studio} />
         </Switch>
       </Router>
 

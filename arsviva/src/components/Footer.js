@@ -12,15 +12,15 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h4 className="kontakt">CONTACT US</h4>
-            <Link to='/'>danica.vladic@gmail.com</Link>
-            <Link to='/'>099 639 4609</Link>
-            <Link to='/'>2047/457</Link>
+            <Link to='/'>ured.sisko@gmail.com</Link>
+            <Link to='/'>01 7888 359</Link>
+            <Link to='/'>ARSVIVA Studio d.o.o.</Link>
           </div>
           <div class='footer-link-items'>
             <h4 className="adresa">VISIT US</h4>
-            <Link to='/'>Kobiljačka 50</Link>
-            <Link to='/'>10361</Link>
-            <Link to='/'>Sesvetski Kraljevec</Link>
+            <Link to='/'>Pete Poljanice 10</Link>
+            <Link to='/'>10040</Link>
+            <Link to='/'>Dubrava, Zagreb</Link>
           </div>
           <div class='footer-link-items1'>
           <div className="arsviva">arsviva</div>
