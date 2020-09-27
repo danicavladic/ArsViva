@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import Cards from './components/Cards';
 import Contact from './components/pages/Contact';
 import Studio from './components/pages/Studio';
+import Architecture from './components/pages/Architecture';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/Contact' component={Contact} />
           <Route path='/Studio' component={Studio} />
+          <Route path='/Architecture' component={Architecture} />
+          
         </Switch>
       </Router>
 

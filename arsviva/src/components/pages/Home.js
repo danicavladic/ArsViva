@@ -49,6 +49,7 @@ function Home() {
       </div>
       <hr></hr>
       <Router> <Cards /></Router>
+      <br></br><br></br><br></br><br></br><br></br><br></br>
       <hr></hr>
       <Router>
         <Footer />
