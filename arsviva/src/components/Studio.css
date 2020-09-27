@@ -1,7 +1,7 @@
 .studioTekst {
     color: black;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 150px;
     font-size: 15px;
     font-family: 'Baloo Tammudu 2', cursive;
   }
@@ -20,7 +20,7 @@
       border-radius: 60%;
       height: 200px;
       width: 250px;
-      margin-left: 900px; 
+      margin-left: 950px; 
       margin-top: -450px;  
   }
   .circlePerson {
