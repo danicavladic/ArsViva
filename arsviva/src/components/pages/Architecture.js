@@ -2,18 +2,24 @@ import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
 import '../Architecture.css';
+<<<<<<< Updated upstream
 import ProjectCards from '../ProjectCards'
 import project1 from '../project1.jpg'
 
 
 
+
+
 function Architecture() {
-    return (
-       
+
+    return (       
         <div className="neobojan">
             <div className="crni-div">
                 <img className="main-pic" src={project1}></img>
             </div>
+
+        <>
+          <div>
             <h1 className="checkOut">CHECK OUT OUR PROJECTS</h1>
             <ProjectCards />
             <ProjectCards />
@@ -23,6 +29,11 @@ function Architecture() {
             <Footer />
        
         </div>
+        </>
+
+
+
+      
     )
 }
 
