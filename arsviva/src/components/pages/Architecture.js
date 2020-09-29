@@ -16,10 +16,9 @@ function Architecture() {
         <div className="neobojan">
             <div className="crni-div">
                 <img className="main-pic" src={project1}></img>
-            </div> </div>
+            </div> 
 
         
-          <div>
             <h1 className="checkOut">CHECK OUT OUR PROJECTS</h1>
             <ProjectCards />
             <ProjectCards />
@@ -29,6 +28,7 @@ function Architecture() {
             <Footer />
        
         </div>
+        
         </>
 
 
