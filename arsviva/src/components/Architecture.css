@@ -1,10 +1,33 @@
 .checkOut {
     font-family: 'Baloo Tammudu 2', cursive;
-    margin-top: 100px;
-    margin-bottom: -50px;
+    margin-top: 200px;
+    margin-bottom: -2 0px;
+    color:  rgb(36, 47, 53);
+    
   }
 
 .help {
     height: 200px;
     background-color: white;
+}
+.veliki-div {
+  background-color:  rgb(36, 47, 53);
+  
+}
+.crni-div {
+  background-color:  rgb(36, 47, 53);
+  height: 60vh;
+  margin-top: 35px;
+}
+.main-pic {
+  margin-top: 100px;
+  margin-left: 245px;
+  height: 550px;
+  width: 900px;
+  border: 10px solid white;
+  border-bottom:40px solid white ;
+ 
+}
+.neobojan {
+  background-color: #eeeeee;
 }
