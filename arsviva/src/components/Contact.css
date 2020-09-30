@@ -109,7 +109,7 @@
     margin-left: 322px;
 
   }
-  .fa-phone {
+  .fa-mobile-alt {
       margin-left: 20px;
   }
   .crta-donja {
@@ -119,5 +119,14 @@
      width: 45%;
      margin-left: 650px;
   }
+  .fa-envelope {
+    margin-left: 5px;
+    color: whitesmoke;
+    margin-top: -100px;
+  }
+  .fa-phone {
+    margin-left: 5px;
+  }
+  
 
   
