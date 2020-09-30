@@ -6,6 +6,7 @@ import '../Map.css'
 import Map from '../Map';
 import kontakt from '../kontakt.jpg';
 import '../Contact.css'
+import office from '../image0.jpeg';
 
 const location = {
   address: 'Kobiljačka 50, Zagreb, Croatia.',
@@ -17,19 +18,35 @@ function Contact() {
   
   return (
     <>
+    <hr className="crta-gornja"></hr>
     <div className="contact">
-    <div className="leftContact">
-                <img className="contactPhoto" src={kontakt}></img>
-                </div>
-                <p className="kontaktTekst"><b>KONTAKT</b><br></br><br></br>ARSVIVA studio d.o.o. <br></br> <br></br> <i>Sjedište </i><br></br> Goli Vrh 42D, Jastrebarsko <br></br><br></br>
-<i>Ured</i> <br></br> Pete Poljanice 10, 10 040 Zagreb, Hrvatska <br></br><br></br> <i>Kontakt telefoni:</i><br></br> 01 7888 359 <br></br> 091 5900 285
-</p>
-                <div><br></br><br></br><br></br></div>
-    <Map location={location} zoomLevel={17} /> {/* include it here */}
-    <div><br></br><br></br><br></br></div>
+    <img className="contactPhoto" src={office}></img>
+                <div className="inlinediv">
+                <p className="kontaktTekst"><b>Kontaktirajte nas</b><i class="fa fa-phone fa-xs"></i>
+                <p className="doo">Arsviva d.o.o.</p>
+                <hr className="crtica"></hr>
+                <p className="adresa">Adresa ureda</p>
+                <p className="poljanice">Pete Poljanice 12, 10 040 Zagreb</p>
+                <p className="sjediste">Adresa sjedista</p>
+                <p className="adrsj">Gornji vrh 42D,  Jastrebarsko</p>
+                <p className="email">Email</p>
+                <p className="sisko">ured.sisko@gmail.com</p>
+                <p className="tel">Kontakt telefoni</p>
+                <p className="fon">01 7888 359</p>
+                <p className="mob">091 5900 285</p>
+                 </p>
+                 <hr className="crta-donja"></hr>
+                 </div>
+    <Map location={location} zoomLevel={17} />
+                {/* include it here */}
+    
+    </div>
+    <br></br>
             <hr></hr>
+            <div>
     <Footer />
   </div>
+  
     
    
       

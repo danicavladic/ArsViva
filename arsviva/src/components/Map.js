@@ -12,6 +12,7 @@ const Map = ({ location, zoomLevel }) => (
           bootstrapURLKeys={{ key: '' }}
           defaultCenter={location}
           defaultZoom={zoomLevel}
+          
         >
           <LocationPin
             lat={location.lat}
