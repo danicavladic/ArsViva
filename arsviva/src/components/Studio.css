@@ -1,8 +1,10 @@
 .studioTekst {
-    color: rgb(36, 47, 53);
-    margin-top: 100px;
-    margin-left: 150px;
+    color:whitesmoke;
+    margin-top: -400px;
+    margin-left: 100px;
     font-size: 15px;
+    position: absolute;
+   
     font-family: 'Baloo Tammudu 2', cursive;
     text-align: center;
   }
@@ -18,15 +20,18 @@
 
   }
   .circleStudio {
-      border-radius: 60%;
-      height: 200px;
+    
+
+      height: 250px;
       width: 250px;
-      margin-left: 950px; 
-      margin-top: -450px;  
+     margin-top: -600px;
+     margin-left: 1000px;
+  
+    
   }
   .circlePerson {
     
-    height: 200px;
+    height: 250px;
     width: 250px;
     margin-left: 200px;
     margin-top: 50px;
@@ -34,7 +39,7 @@
   }
   .aboutOwner {
     color: whitesmoke;
-    margin-top: -170px;
+    margin-top: -230px;
     margin-left: 200px;
     font-size: 15px;
     font-family: 'Baloo Tammudu 2', cursive;
@@ -47,7 +52,7 @@
     opacity: 0.3;
   }
   .druga-crta {
-    margin-top: 100px;
+    margin-top: 300px;
     width: 80%;
     margin-left: 10%;
     background-color: whitesmoke;
@@ -63,4 +68,112 @@
     background-color: rgb(36, 47, 53);
     margin-top: 20px;
     opacity: 0.99;
+    height: 500px;
+  }
+  .treca-crta {
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: whitesmoke;
+    opacity: 0.3;
+  }
+  .added {
+    height: 300px;
+    width: 100%;
+  }
+  .opetcrta {
+    background-color: whitesmoke;
+    margin-top: -130px;
+    margin-left: 200px;
+    opacity: 0.3;
+    width: 30%;
+  }
+  .ovl {
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: left;
+    margin-top: -342px;
+    margin-left: 650px;
+  }
+  .prvidiv {
+    width: 130px;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-top: 140px;
+    margin-left: 600px;
+    text-align: center;
+    
+  }
+  .tekstA {
+    color:rgb(36, 47, 53);
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-top: -35px;
+    margin-left: 630px;
+    font-size: 13px;
+    opacity: 0.8;
+  }
+  .drugidiv {
+    width: 130px;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-top: -53px;
+    margin-left: 770px;
+    text-align: center;
+    
+  }
+  .tekstB {
+    color:rgb(36, 47, 53);
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-top: -35px;
+    margin-left: 800px;
+    font-size: 13px;
+    opacity: 0.8;
+  }
+  .trecidiv {
+    width: 130px;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-top: -53px;
+    margin-left: 950px;
+    text-align: center;
+    
+  }
+  .tekstC {
+    color:rgb(36, 47, 53);
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-top: -35px;
+    margin-left: 980px;
+    font-size: 13px;
+    opacity: 0.8;
+  }
+  .studioDiv {
+    background-color: rgb(36, 47, 53);
+    height: 500px;
+    margin-top: 50px;
+  }
+  .crtaStudio {
+    width: 35%;
+    position: absolute;
+    margin-top: -415px;
+    margin-left: 640px;
+    background-color: whitesmoke;
+    opacity: 0.3;
+  }
+  .arsviva {
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    margin-left: -200px;
+    margin-top: -1070px;
+    position: absolute;
+    color: whitesmoke;
+    text-align: left;
+  
+  }
+  .crtaispod {
+    margin-top: -100px;
+    width: 80%;
+    background-color: whitesmoke;
+    opacity: 0.3;
+    margin-left: 10%;
   }

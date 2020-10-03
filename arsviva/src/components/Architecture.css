@@ -31,3 +31,71 @@
 .neobojan {
   background-color: #eeeeee;
 }
+.bijela-crta {
+  background-color: whitesmoke;
+  opacity: 0.5;
+  margin-top: -300px;
+  margin-left: 50px;
+  width: 30%;
+
+}
+.bijela-crta-2   {
+  background-color: whitesmoke;
+  opacity: 0.5;
+  margin-top: 0px;
+  margin-left: 110px;
+  width: 20%;
+
+}
+.bijela-crta-3   {
+  background-color: whitesmoke;
+  opacity: 0.5;
+  margin-top: 150px;
+  margin-left: 500px;
+  width: 30%;
+}
+.bijela-crta-4   {
+  background-color: whitesmoke;
+  opacity: 0.5;
+  margin-top: 0px;
+  margin-left: 560px;
+  width: 20%;
+
+}
+.bijela-crta-5   {
+  background-color: whitesmoke;
+  opacity: 0.5;
+  margin-top: -200px;
+  margin-left: 900px;
+  width: 30%;
+}
+.bijela-crta-6   {
+  background-color: whitesmoke;
+  opacity: 0.5;
+  margin-top: 0px;
+  margin-left: 970px;
+  width: 20%;
+
+}
+.izdvojen {
+   color: whitesmoke;
+   position: absolute;
+   margin-left: 50px;
+    margin-top:50px;
+    font-size: 30px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    text-align: center;
+    opacity: 0.8;
+
+}
+.first {
+  color: whitesmoke;
+  position: absolute;
+  margin-left: 180px;
+   margin-top:130px;
+   font-size: 20px;
+   font-family: 'Baloo Tammudu 2', cursive;
+   text-align: center;
+   opacity: 0.5;
+
+}

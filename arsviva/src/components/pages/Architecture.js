@@ -14,9 +14,20 @@ function Architecture() {
     return (  
         <>     
         <div className="neobojan">
+            <p className="izdvojen">IZDVOJENI PROJEKT</p>
+            <p className="first">#1 <br></br>Obiteljska kuća</p>
             <div className="crni-div">
-                <img className="main-pic" src={project1}></img>
+            
             </div> 
+            
+            <hr className="bijela-crta"></hr>
+            <hr className="bijela-crta-2"></hr>
+            <hr className="bijela-crta-3"></hr>
+            <hr className="bijela-crta-4"></hr>
+            <hr className="bijela-crta-5"></hr>
+            <hr className="bijela-crta-6"></hr>
+            
+            
 
         
             <h1 className="checkOut">CHECK OUT OUR PROJECTS</h1>
