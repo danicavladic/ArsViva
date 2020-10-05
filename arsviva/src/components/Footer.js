@@ -17,7 +17,7 @@ function Footer() {
             <Link to='/'>ARSVIVA Studio d.o.o.</Link>
           </div>
           <div class='footer-link-items'>
-            <h4 className="adresa">VISIT US</h4>
+            <h4 className="adresica">VISIT US</h4>
             <Link to='/'>Pete Poljanice 10</Link>
             <Link to='/'>10040</Link>
             <Link to='/'>Dubrava, Zagreb</Link>
