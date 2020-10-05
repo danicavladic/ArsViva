@@ -49,7 +49,7 @@ Osnivanjem ARSIVA studia, zaokružuje se ukupan rad arhitektice koji uz poslove 
 građevina i uređenja interijera obuhvaća i njen slikarski rad.</p>
         <img className="circleStudio" src={studios}></img>
         <hr className="crtaStudio"></hr>
-        <p className="arsviva">Arsviva</p>
+        <p className="arsviva-prva">Arsviva</p>
         <hr className="crtaispod"></hr>
             
             
