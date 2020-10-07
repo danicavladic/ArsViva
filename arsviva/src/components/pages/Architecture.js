@@ -27,6 +27,7 @@ function Architecture() {
                 <button className="sviii">ALL PROJECTS</button>
                 <img className="slicicaa" src={sl1}></img>
                 <div className="gornji"></div>
+                <p className="hl">IZDVOJENI <br></br>PROJEKT</p>
                 <p className="zimska">WINTER</p>
                 <p className="bajka">FAIRYTALE</p>
                 <p className="t">"This is not a marketing trick,</p>
@@ -35,11 +36,18 @@ function Architecture() {
                 <p className="t4">in warm June with a lot of sun."</p>
                 <button className="prr"><div className="pD">SEE THIS PROJECT</div></button>
                 <div className="help"></div>
+                <hr className="cr"></hr>
+                <p className="blabla2">SEE OTHER PROJECTS</p>
+                <p className="blabla">This is so cooldhhdhfhdhfhdshfjdsfjjfdj <br></br> bla bla </p>
+                <hr className="cr"></hr>
                 <div className="kart"><OtherProjects  src={sl}></OtherProjects></div>
                 <div className="kart-2"><OtherProjects  src={sl1}></OtherProjects></div>
                 <div className="kart-3"><OtherProjects  src={s2}></OtherProjects></div>
+                <div className="kart-2"><OtherProjects  src={s2}></OtherProjects></div>
+                <div className="kart-3"><OtherProjects  src={s2}></OtherProjects></div>
+              
                 
-                <hr></hr>
+                <hr className="footercrta"></hr>
                 <Footer />
 
             </div>

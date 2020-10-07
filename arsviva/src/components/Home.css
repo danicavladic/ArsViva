@@ -253,6 +253,26 @@
     margin-top:100px;
     
   }
+  .checkUs {
+    font-size: 40px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-left: 550px;
+
+  }
+  .sections {
+    margin-left: 180px;
+    margin-top: -50px;
+  }
+  .sections-2 {
+    margin-left: 600px;
+    margin-top: -707px;
+    position: absolute;
+  }
+  .sections-3 {
+    margin-left: 780.5px;
+    margin-top: -377px;
+    position: absolute;
+  }
 
  
   

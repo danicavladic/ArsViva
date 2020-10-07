@@ -1,7 +1,7 @@
 .checkOut {
     font-family: 'Baloo Tammudu 2', cursive;
     margin-top: 200px;
-    margin-bottom: -2 0px;
+    margin-bottom: -20px;
     color:  rgb(36, 47, 53);
     
   }
@@ -171,11 +171,11 @@
   margin-top: -120px;
 }
 .kart-2 {
-  margin-top: -30px;
+  margin-top: -10px;
   margin-left: 500px;
 }
 .kart-3 {
-  margin-top: -30px;
+  margin-top: -10px;
   margin-left: 50px;
 }
 
@@ -191,4 +191,41 @@
   padding-bottom: 10px;
   margin-left: 110px;
   margin-top: -70px;
+}
+.cr {
+  margin-top:-150px;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 200px;
+  
+}
+.blabla {
+  font-family: 'Baloo Tammudu 2', cursive;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-bottom: 200px;
+    color:  rgb(36, 47, 53);
+}
+.blabla2 {
+  font-family: 'Baloo Tammudu 2', cursive;
+    margin-top: -150px;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 140px;
+    margin-bottom: 0px;
+    color:  rgb(36, 47, 53);
+}
+.footercrta {
+  margin-top: 100px;
+}
+.hl {
+  font-family: 'Baloo Tammudu 2', cursive;
+  position: absolute;
+  margin-top: -600px;
+  margin-left: 1240px;
+  color: whitesmoke;
+  text-align: center;
+
 }

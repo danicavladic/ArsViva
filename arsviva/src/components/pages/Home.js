@@ -13,6 +13,7 @@ import { Link } from 'react-router-dom';
 import Cards from '../Cards';
 import Contact from './Contact';
 import Slideshow from '../Slideshow';
+import AnotherCard from '../AnotherCard'
 
 
 function Home() {
@@ -48,7 +49,18 @@ function Home() {
         </div>
       </div>
       <hr></hr>
-      <Router> <Cards /></Router>
+      <p className="checkUs">CHECK US OUT</p>
+      <AnotherCard></AnotherCard>
+      <div className="sections">
+        <AnotherCard></AnotherCard>
+      </div>
+      <div className="sections-2">
+        <AnotherCard></AnotherCard>
+      </div>
+      <div className="sections-3">
+        <AnotherCard></AnotherCard>
+      </div>
+      <Router> </Router>
       <br></br><br></br><br></br><br></br><br></br><br></br>
       <hr></hr>
       <Router>
