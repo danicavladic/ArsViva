@@ -182,3 +182,40 @@
     color: #9d7f61;
     font-size: 50px;
   }
+
+  .zeleni {
+    background-color: rgb(36, 47, 53);
+    height: 455px;
+    width: 100%;
+    display: inline-block;
+    
+  }
+
+  .zeleniDrugi {
+    background-color: rgb(36, 47, 53);
+    margin-left: 350px;
+    height: 150px;
+  }
+
+  .sivi {
+    height: 180px;
+    background-color: #808080;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: -150px;
+  }
+
+  .slicicaa {
+    position: absolute;
+    left: 0; 
+    bottom: 233px;
+    right: 400px;
+    margin: auto;
+    width: 50%;
+    height: 53%;
+  }
+
+  .sl {
+    width: 50%;
+    height: 50%;
+  }
