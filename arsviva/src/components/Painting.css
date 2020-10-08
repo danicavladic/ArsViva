@@ -50,15 +50,22 @@
     margin-top: -10px;
 }
 
+.d3 {
+    font-size: 17px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-left: 120px;
+    margin-top: -10px;
+}
+
 .flexic {
   display: inline-flex;
 }
 
 .sliks {
-  width: 85%;
-  height: 100%;
-  margin-top: 50px;
-  margin-left: 70px;
+  width: 70%;
+  height: 90%;
+  margin-top: 70px;
+  margin-left: 120px;
 }
 
 .stol {
@@ -66,7 +73,8 @@
   font-family: 'Baloo Tammudu 2', cursive;
   font-weight: 700;
   margin-top: 200px;
-  margin-left: 530px;
+  margin-left: 420px;
+  display: inline-flex;
 }
 
 .pingvin {
@@ -80,9 +88,9 @@
 .oneD {
   font-size: 17px;
   font-family: 'Baloo Tammudu 2', cursive;
-  margin-right: 100px;
-  text-align: right;
-  margin-top: -16px;
+  margin-right: 80px;
+  text-align: end;
+  margin-top: -12px;
 }
 
 .pingo {
@@ -94,8 +102,8 @@
     padding-right: 60px;
     padding-top: 20px;
     padding-bottom: 10px;
-    margin-left: 440px;
-    margin-top: 100px;
+    margin-left: 370px;
+    margin-top: 65px;
 }
 
 .zadnjiFlex {
@@ -185,6 +193,59 @@
     margin-top: 80px;
 }
 
+.stresic {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  background-color: #808080;
+  color: white;
+  text-align: center;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  vertical-align: middle;
+  border-radius: 40px;
+  font-size: 15px;
+  margin-left: 115px;
+  margin-top: 100px;
+}
+
 .taylor {
   text-align: center;
+}
+
+.tayloric {
+  text-align: center;
+}
+
+.dominik {
+  color: red;
+  font-size: 30px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-weight: 300;
+  margin-right: 5px;
+  margin-bottom: 50px;
+
+}
+
+.nikola {
+  font-size: 30px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.jaki {
+  font-size: 30px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-weight: 300;
+  margin-right: 5px;
+}
+
+.jasna {
+  font-size: 30px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-weight: 700;
+  margin-right: 5px;
 }
