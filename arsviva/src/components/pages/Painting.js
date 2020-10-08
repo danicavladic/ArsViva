@@ -1,9 +1,11 @@
 import React from 'react'
 import '../Painting.css';
-import sl from '../3.jpg'
-import slik from '../7.jpg'
-import slisli from '../slikaa.jpg'
+import sl from '../11.jpg'
+import slik from '../13.jpg'
+import slisli from '../12.jpg'
 import Footer from '../Footer';
+import { View, ScrollView } from 'react-native';
+//import Carousel from '../Carousel'
 
 
 function Painting() {
@@ -11,10 +13,13 @@ function Painting() {
         <>
             <div className="flexx">
                 <div className="leftt">
-                    <p className="sok">FAIRYTALE</p>
-                    <p className="sokic">WINTER</p>
-                    <p className="d">"This is not a marketing trick, you should totally believe us.</p>
-                    <p className="d2">Visit winter fairytale in Zagreb."</p>
+                    <p className="sok">SLIKARSKI</p>
+                    <p className="sokic">RADOVI</p>
+                    <pre className="d">Gordana Šiško je članica HLD od početka 2019.</pre>
+                    <pre className="d2">Sudjelovala je na više zajedničkih izložbi te imala svoju izložbu</pre>
+                    <pre className="d3">u veljači 2020.  u galeriji HLD.</pre>
+                    <button className="stresic"><div className="tayloric">VIDI SVE RADOVE</div></button>
+
                 </div>
                 <div className="rightt">
                     <img src={sl} className="phtoo"></img>
@@ -26,10 +31,18 @@ function Painting() {
                     <img src={slik} className="sliks"></img>
                 </div>
                 <div>
-                    <p className="stol">About us</p>
-                    <p className="pingvin">"You're insecure, don't know what for. You're turning heads when you walk through the door. Don't need makeup to cover up, being the way that you are is enough.</p>
-                    <p className="oneD">Everyone else in the room can see it, everyone else but you. Baby, you light up my world like nobody else." </p>
-                    <button className="pingo">ALL PROJECTS</button>
+                    <div className="stol"><p className="dominik"> crna</p> <p className="nikola"> BOJA</p> <p className="jaki"> i</p> <p className="jasna"> .</p></div>
+                    <pre className="oneD">Uz ovu izložbu, kustosica Saša Brkić Kristensen je između ostalog napisala:</pre>
+                    <pre className="oneD">"... Radi se o apstraktnim kompozicijama velikog formata, snažnih</pre>
+                    <pre className="oneD">"i kontrastnih kombinacija boja. Umjetnica koristi suzdržanu paletu, svodeći je</pre>
+                    <pre className="oneD">primarno na nekoliko nijansi plave, crvene, crne i bijele. Velikim plohama i</pre>
+                    <pre className="oneD">energičnim potezima ona stvara naoko slične, a opet različite radove od kojih</pre>
+                    <pre className="oneD">je svaki prava eksplozija boja, koje autorica slaže na platno u plohama</pre>
+                    <pre className="oneD">različitog usmjerenja. Ona zatim svoje radove dovršava na način da površinu</pre>
+                    <pre className="oneD">"uništava". Umjetnica površinu grebe stvarajući tanje i šire linije čime slika dobiva</pre>
+                    <pre className="oneD">završnu teksturu, a ujedno i treću dimenziju."</pre>
+
+                    <button className="pingo">VIDI IZLOŽBU</button>
                 </div>
             </div>
 
@@ -48,7 +61,22 @@ function Painting() {
                 </div>
             </div>
 
-            <Footer/>
+            <div>
+                <div>
+                    <ScrollView
+                        horizontal={true}
+                        contentContainerStyle={{ width: `${100}%` }}
+                        showsHorizontalScrollIndicator={false}
+                        scrollEventThrottle={200}
+                        decelerationRate="fast"
+                        pagingEnabled
+                    >
+                        {/* Items */}
+                    </ScrollView>
+                </div>
+            </div>
+
+            <Footer />
         </>
     )
 }
