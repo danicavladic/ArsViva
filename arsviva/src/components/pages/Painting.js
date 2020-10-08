@@ -4,11 +4,24 @@ import sl from '../11.jpg'
 import slik from '../13.jpg'
 import slisli from '../12.jpg'
 import Footer from '../Footer';
-import { View, ScrollView } from 'react-native';
-import Slideshow from '../Slideshow'
+import { View, ScrollView, Text, Button, StyleSheet } from 'react-native';
+
+
 
 
 function Painting() {
+
+    const styles = StyleSheet.create({
+        container: {
+            flex: 1,
+        },
+        /*    buttonStyle:{ 
+                height: 50, 
+                width: 70, 
+            }*/
+    })
+
+
     return (
         <>
             <div className="flexx">
@@ -63,7 +76,31 @@ function Painting() {
 
             <div>
                 <div>
-                    <Slideshow className="slideshow"/>
+                    <ScrollView horizontal={true} style={styles.container}>
+                        <View style={[{ width: 900, height: 400, padding: 15, backgroundColor: "white" }]}>
+                            <div>
+                                <p className="radovi">Pogledajte sve ostale</p>
+                                <p className="radovi2">radove</p>
+                                <button className="pingo2">VIDI IZLOŽBU</button>
+                            </div>
+                        </View>
+
+                        <View style={[{ width: 700, height: 500, padding: 15 }]}>
+                            <div><img className="protein" src={sl} ></img></div>
+                        </View>
+
+                        <View style={[{ width: 700, height: 500, padding: 15 }]}>
+                            <div><img className="protein" src={slik} ></img></div>
+                        </View>
+
+                        <View style={[{ width: 700, height: 500, padding: 15 }]}>
+                            <div><img className="protein" src={slisli} ></img></div>
+                        </View>
+
+                        <View style={[{ width: 700, height: 500, padding: 15 }]}>
+
+                        </View>
+                    </ScrollView>
                 </div>
             </div>
 
@@ -71,6 +108,8 @@ function Painting() {
         </>
     )
 }
+
+
 
 export default Painting
 
