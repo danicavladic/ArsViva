@@ -14,6 +14,11 @@ import Cards from '../Cards';
 import Contact from './Contact';
 import Slideshow from '../Slideshow';
 import AnotherCard from '../AnotherCard'
+import ReverseCard from '../ReverseCard'
+import about from '../about.jpg'
+import studio from '../studioSmallPhoto.jpg'
+import paint from '../painting.jpg'
+import cont from '../cont.jpg'
 
 
 function Home() {
@@ -50,15 +55,19 @@ function Home() {
       </div>
       <hr></hr>
       <p className="checkUs">CHECK US OUT</p>
-      <AnotherCard></AnotherCard>
+      <AnotherCard src={about} label="ABOUT US" text="
+      If you want to know more about us, click here"></AnotherCard>
       <div className="sections">
-        <AnotherCard></AnotherCard>
+        <AnotherCard src={paint} label="PAINTING" text="
+      If you are interested in our painting, click here"></AnotherCard>
       </div>
       <div className="sections-2">
-        <AnotherCard></AnotherCard>
+        <ReverseCard src={studio} label="OUR STUDIO" text="
+      If you are interested in our projects, click here"></ReverseCard>
       </div>
       <div className="sections-3">
-        <AnotherCard></AnotherCard>
+        <ReverseCard src={cont} label="CONTACT" text="
+      If you want to contact us, click here"></ReverseCard>
       </div>
       <Router> </Router>
       <br></br><br></br><br></br><br></br><br></br><br></br>
