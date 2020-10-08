@@ -19,6 +19,10 @@ import about from '../about.jpg'
 import studio from '../studioSmallPhoto.jpg'
 import paint from '../painting.jpg'
 import cont from '../cont.jpg'
+import a from '../b.jpg'
+import arh from '../arh1.jpg'
+import edit from '../edit.jpg'
+import iph from '../iph2.jpg'
 
 
 function Home() {
@@ -35,7 +39,7 @@ function Home() {
             <div className="petaCrta"></div>
             <div className="facebook"><i className="fab fa-facebook-f"></i></div>
             <div className="instagram"><i className="fab fa-instagram"></i></div>
-            <button className="svi">ALL PROJECTS</button>
+            <button className="svi">SVI PROJEKTI</button>
           </div>
           <div className="App-mainDiv-rightDiv" >
             <hr className="crta" />
@@ -48,27 +52,25 @@ function Home() {
             <p className="tekst2">you should totally believe us.</p>
             <p className="tekst2">Visit winter fairytale in Zagreb</p>
             <p className="tekst2">in warm June with a lot of sun."</p>
-            <button className="projekt"><div className="pomDiv">SEE THIS PROJECT</div></button>
+            <button className="projekt"><div className="pomDiv">VIDI OVAJ PROJEKT</div></button>
             <hr className="crta2" />
           </div>
         </div>
       </div>
       <hr></hr>
-      <p className="checkUs">CHECK US OUT</p>
-      <AnotherCard src={about} label="ABOUT US" text="
-      If you want to know more about us, click here"></AnotherCard>
-      <div className="sections">
-        <AnotherCard src={paint} label="PAINTING" text="
-      If you are interested in our painting, click here"></AnotherCard>
-      </div>
-      <div className="sections-2">
-        <ReverseCard src={studio} label="OUR STUDIO" text="
-      If you are interested in our projects, click here"></ReverseCard>
-      </div>
-      <div className="sections-3">
-        <ReverseCard src={cont} label="CONTACT" text="
-      If you want to contact us, click here"></ReverseCard>
-      </div>
+      <p className="checkUs">UPOZNAJTE NAS</p>
+      <div className="crta-div-green"></div>
+      <p className="pajdasi">Arsviva studio</p>
+      <p className="drugi-pajdasi">Upoznajte naš <br></br> Arsviva studio. </p>
+      <div className="zeleni-div"></div>
+      <div className="zeleni-div-2"><img className="a" src={a}></img></div>
+      <pre className="onamaslika"><b>O NAMA   <i class="fa fa-info"></i></b><br></br><br></br>Ako želite saznati nešto o <br></br>našem studiu, kliknite ovdje.</pre>
+      <div className="zeleni-div-3"><img className="b" src={arh}></img></div>
+      <p className="onamaslika-2"><b>ARHITEKTURA</b><br></br><br></br>Ako želite saznati nešto o <br></br>našim arhitektonskim projektima, <br></br> kliknite ovdje. <i class="fa fa-building"></i></p>
+      <div className="zeleni-div-4"><img className="c" src={edit}></img></div>
+      <p className="onamaslika-3"><b>SLIKARSTVO   <i class="fas fa-palette"></i></b><br></br><br></br>Ako želite saznati nešto o <br></br>našim slikarskim radovima, <br></br> kliknite ovdje.</p>
+      <div className="zeleni-div-5"><img className="d" src={iph}></img></div>
+      <pre className="onamaslika-4"><b>KONTAKT  </b><br></br><br></br>Ako nas želite kontaktirati, <br></br> kliknite ovdje.  <i class="fa fa-comment"></i></pre>
       <Router> </Router>
       <br></br><br></br><br></br><br></br><br></br><br></br>
       <hr></hr>
