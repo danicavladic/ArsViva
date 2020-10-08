@@ -5,7 +5,7 @@ import slik from '../13.jpg'
 import slisli from '../12.jpg'
 import Footer from '../Footer';
 import { View, ScrollView } from 'react-native';
-//import Carousel from '../Carousel'
+import Slideshow from '../Slideshow'
 
 
 function Painting() {
@@ -15,7 +15,7 @@ function Painting() {
                 <div className="leftt">
                     <p className="sok">SLIKARSKI</p>
                     <p className="sokic">RADOVI</p>
-                    <pre className="d">Gordana Šiško je članica HLD od početka 2019.</pre>
+                    <pre className="d4">Gordana Šiško je članica HLD od početka 2019.</pre>
                     <pre className="d2">Sudjelovala je na više zajedničkih izložbi te imala svoju izložbu</pre>
                     <pre className="d3">u veljači 2020.  u galeriji HLD.</pre>
                     <button className="stresic"><div className="tayloric">VIDI SVE RADOVE</div></button>
@@ -63,16 +63,7 @@ function Painting() {
 
             <div>
                 <div>
-                    <ScrollView
-                        horizontal={true}
-                        contentContainerStyle={{ width: `${100}%` }}
-                        showsHorizontalScrollIndicator={false}
-                        scrollEventThrottle={200}
-                        decelerationRate="fast"
-                        pagingEnabled
-                    >
-                        {/* Items */}
-                    </ScrollView>
+                    <Slideshow className="slideshow"/>
                 </div>
             </div>
 
