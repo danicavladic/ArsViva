@@ -9,6 +9,7 @@ import Collapse from "@material-ui/core/Collapse";
 
 import Typography from "@material-ui/core/Typography";
 import pozadina from "./5.jpg"
+import { BorderAll } from "@material-ui/icons";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -21,12 +22,16 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "-3px",
     display: "flex",
     flexDirection: "row",
-    backgroundColor: "rgb(36,47,53)"
+    backgroundColor: "rgb(36,47,53)",
+  
     
   },
   media: {
-    height: 330,
-    width: 300
+    height: 400,
+    width: 300,
+    marginLeft: "50px",
+    marginRight: "-20px"
+   
     // 16:9
   },
   expand: {
@@ -40,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     transform: "rotate(180deg)"
   },
   tekst: {
-    marginRight: "-20px",
+    
     marginLeft: "30px",
    backgroundColor: "rgb(36,47,53)",
    color: "white",
@@ -62,19 +67,21 @@ export default function RecipeReviewCard(props) {
 
   return (
     <Card className={classes.root}>
+        <CardContent >
+        <Typography  className={classes.tekst} component="p">
+        {props.label} <br></br><br></br>
+          {props.text}
+        </Typography>
+      
+        
+        </CardContent>
+       
       <CardMedia
         className={classes.media}
         image={props.src}
         
       />
-      <CardContent >
-        
-      <Typography  className={classes.tekst} component="p">
-          {props.label} <br></br><br></br>
-          {props.text}
-        </Typography>
-        
-      </CardContent>
+      
       <Typography  className={classes.bla} component="p">
           
         </Typography>
