@@ -1,110 +1,173 @@
-.jazavac {
-    width: 1450px;
-    height: 760px;
+.flexx {
+  display: inline-flex;
+  margin-top: 50px;
 }
 
-.jazaviTekst {
-    color: black;
-    font-size: 35px;
-    font-family: 'Varela Round', sans-serif;
-   
+.leftt {
+  width: 640px;
+  height: 600px;
+  background-color: white;
+  color: black;
 }
 
-.jazaviDiv {
+.rightt {
+  width: 700px;
+  background-color: rgb(36, 47, 53);
+}
+
+.phtoo {
+  height: 100%;
+  width: 100%;
+  margin-top: 115px;
+  margin-left: 100px;
+}
+
+.sok {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 80px;
+  margin-left: 120px;
+  margin-top: 150px;
+}
+
+.sokic {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 50px;
+  margin-left: 120px;
+  margin-top: -50px;
+}
+
+.d {
+    font-size: 17px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.d2 {
+    font-size: 17px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-left: 120px;
+    margin-top: -10px;
+}
+
+.flexic {
+  display: inline-flex;
+}
+
+.sliks {
+  width: 85%;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.stol {
+  font-size: 30px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-weight: 700;
+  margin-top: 200px;
+  margin-left: 530px;
+}
+
+.pingvin {
+  font-size: 17px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  margin-right: 100px;
+  text-align: right;
+
+}
+
+.oneD {
+  font-size: 17px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  margin-right: 100px;
+  text-align: right;
+  margin-top: -16px;
+}
+
+.pingo {
+    border: none;
     background-color: rgb(36, 47, 53);
-    height: 300px;
-    width: 500px;
-    position: absolute;
-    left: 0; 
-    bottom: 200px;
-    right: 650px;
-    margin: auto;
-    opacity: 0.95;
-}
-
-.jazavaCrta {
-    border-top: 1px solid white;
-    opacity: 0.5;
-    margin-top: 23px;
-    width: 400px;
-    margin-left: 71px;
-   
-}
-
-.drugaJazavaCrta {
-    border-top: 1px solid white;
-    opacity: 0.5;
-    margin-top: 250px;
-    width: 430px;
-    margin-left: 41px;;
-
-}
-
-.divCrta {
-    background-color: white;
-    height: 250px;
-    width: 1px;
-    margin-left: 470px;
-    margin-top: -267px;
-    opacity: 0.5;
-    
-}
-
-.winter {
     color: white;
-    font-size: 50px;
-    font-weight: 300;
-    margin-top: -240px;
-    margin-left: 150px;
     font-family: 'Baloo Tammudu 2', cursive;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 440px;
+    margin-top: 100px;
 }
 
-.fairytale {
-    font-size: 30px;
-    font-weight: 300;
-    margin-top: -40px;
-    margin-left: 180px;
-    font-family: 'Baloo Tammudu 2', cursive;
-    color: white;
+.zadnjiFlex {
+  display: inline-flex;
+  margin-bottom: 100px;
 }
 
-.darkness {
-    color: white;
-    font-size: 15px;
-    font-family: 'Baloo Tammudu 2', cursive;
-    margin-left: 100px;
-    margin-top: -20px;
+.kartTek {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(36, 47, 53);
+  margin-top: 200px;
+  margin-left: 100px;
 }
 
-.mix {
-    color: white;
-    font-size: 15px;
-    font-family: 'Baloo Tammudu 2', cursive;
-    margin-top: -15px;
-    margin-left: 95px;
+.kartSlik {
+  width: 740px;
+  background-color: #808080;
+  margin-top: 200px;
+  margin-right: 100px;
+  height: 500px;
+
 }
 
-.countless {
-    color: white;
-    font-size: 15px;
-    font-family: 'Baloo Tammudu 2', cursive;
-    margin-top: -15px;
-    margin-left: 95px;
+.slikana {
+  width: 100%;
+  height: 100%;
 }
 
-.fix {
-    color: white;
-    font-size: 15px;
-    font-family: 'Baloo Tammudu 2', cursive;
-    margin-top: -15px;
-    margin-left: 70px;
+.iskljuci {
+  color: whitesmoke;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 50px;
+  font-weight: 300;
+  margin-left: 200px;
+  margin-top: 60px;
 }
 
-.pomDiv1 {
-    text-align: center;
-  }
+.ukljuci {
+  color: whitesmoke;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 30px;
+  font-weight: 300;
+  margin-left: 230px;
+  margin-top: -40px;
+}
 
-  .projekt1 {
+.y {
+  font-size: 15px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  color: whitesmoke;
+  margin-left: 180px;
+  margin-top: 50px;
+}
+
+.y2 {
+  font-size: 15px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  color: whitesmoke;
+  margin-left: 170px;
+  margin-top: -20px;
+}
+
+.y3 {
+  font-size: 15px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  color: whitesmoke;
+  margin-left: 180px;
+  margin-top: -20px;
+}
+
+.stres {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
     background-color: #808080;
@@ -119,67 +182,9 @@
     border-radius: 40px;
     font-size: 15px;
     margin-left: 200px;
-    margin-top: 0px;
-    opacity: 1;
-  }
+    margin-top: 80px;
+}
 
-  .ikonice {
-    background-color: #eeeeee;
-  }
-
-  .title {
-    margin-left: 650px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
-    margin-top: 0px;
-    margin-bottom: 50px;
-  }
-
-  .prva {
-    margin-left: 300px;
-    font-family: 'Baloo Tammudu 2', cursive;
-    font-size: 25px;
-    font-weight: 300;
-  }
-
-  .druga {
-    margin-left: 510px;
-    margin-top: -98px;
-    font-family: 'Baloo Tammudu 2', cursive;
-    font-size: 25px;
-    font-weight: 300;
-  }
-
-  .treca {
-    margin-left: 750px;
-    margin-top: -37px;
-    font-family: 'Baloo Tammudu 2', cursive;
-    font-size: 25px;
-    font-weight: 300;
-  }
-
-  .cetvrta {
-    margin-left: 990px;
-    margin-top: -37px;
-    font-family: 'Baloo Tammudu 2', cursive;
-    font-size: 25px;
-    font-weight: 300;
-  }
-
-  .fa-palette {
-    margin-top: -300px;
-    font-size: 50px;
-    margin-left: 350px;
-    margin-bottom: 50px;
-    color: #9d7f61;
-  }
-
-  .fa-heart {
-    margin-top: -300px;
-    font-size: 30px;
-    margin-left: 560px;
-    margin-bottom: 30px;
-    color: #9d7f61;
-    font-size: 50px;
-  }
-
+.taylor {
+  text-align: center;
+}
