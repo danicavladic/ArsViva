@@ -15,10 +15,6 @@ function Painting() {
         container: {
             flex: 1,
         },
-        /*    buttonStyle:{ 
-                height: 50, 
-                width: 70, 
-            }*/
     })
 
 
@@ -59,22 +55,9 @@ function Painting() {
                 </div>
             </div>
 
-            <div className="zadnjiFlex">
-                <div className="kartTek">
-                    <p className="iskljuci">WINTER</p>
-                    <p className="ukljuci">FAIRYTALE</p>
-                    <p className="y">"This is not a marketing trick, </p>
-                    <p className="y3">you should totally believe us.</p>
-                    <p className="y2">Visit winter fairytale in Zagreb."</p>
-                    <button className="stres"><div className="taylor">SEE THIS PROJECT</div></button>
-                </div>
+            <hr></hr>
 
-                <div className="kartSlik">
-                    <img src={slisli} className="slikana"></img>
-                </div>
-            </div>
-
-            <div>
+            <div className="mT">
                 <div>
                     <ScrollView horizontal={true} style={styles.container}>
                         <View style={[{ width: 900, height: 400, padding: 15, backgroundColor: "white" }]}>
@@ -104,6 +87,8 @@ function Painting() {
                 </div>
             </div>
 
+            <hr></hr>
+
             <Footer />
         </>
     )
@@ -112,5 +97,22 @@ function Painting() {
 
 
 export default Painting
+
+/*
+<div className="zadnjiFlex">
+                <div className="kartTek">
+                    <p className="iskljuci">WINTER</p>
+                    <p className="ukljuci">FAIRYTALE</p>
+                    <p className="y">"This is not a marketing trick, </p>
+                    <p className="y3">you should totally believe us.</p>
+                    <p className="y2">Visit winter fairytale in Zagreb."</p>
+                    <button className="stres"><div className="taylor">SEE THIS PROJECT</div></button>
+                </div>
+
+                <div className="kartSlik">
+                    <img src={slisli} className="slikana"></img>
+                </div>
+            </div>
+*/
 
 
