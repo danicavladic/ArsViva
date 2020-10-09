@@ -32,6 +32,7 @@ import w15 from '../w15.jpg'
 import w16 from '../w16.jpg'
 import w17 from '../w17.jpg'
 import w18 from '../w18.jpg'
+import { useRef } from 'react';
 
 
 
@@ -43,6 +44,9 @@ function Painting() {
             flex: 1,
         },
     })
+    const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);  
+    const myRef = useRef(null)
+    const executeScroll = () => scrollToRef(myRef)
 
 
     return (
@@ -78,7 +82,7 @@ function Painting() {
                     <pre className="oneD">"uništava". Umjetnica površinu grebe stvarajući tanje i šire linije čime slika dobiva</pre>
                     <pre className="oneD">završnu teksturu, a ujedno i treću dimenziju."</pre>
 
-                    <a href="#radovi"><button className="pingo">VIDI IZLOŽBU</button></a>
+                    <button  onClick={executeScroll} className="pingo">VIDI IZLOŽBU</button>
                 </div>
             </div>
 
@@ -149,7 +153,7 @@ function Painting() {
 
             <hr></hr>
 
-            <div id="radovi" className="mT">
+            <div ref={myRef} className="mT">
                 <div>
                     <ScrollView horizontal={true} style={styles.container}>
                         <View style={[{ width: 900, height: 400, padding: 15, backgroundColor: "white" }]}>
