@@ -41,6 +41,7 @@
     font-family: 'Baloo Tammudu 2', cursive;
     margin-left: 120px;
     margin-top: 40px;
+    overflow-y: hidden !important;
 }
 
 .d2 {
@@ -48,6 +49,7 @@
     font-family: 'Baloo Tammudu 2', cursive;
     margin-left: 120px;
     margin-top: -10px;
+    overflow-y: hidden !important;
 }
 
 .d3 {
@@ -55,6 +57,7 @@
     font-family: 'Baloo Tammudu 2', cursive;
     margin-left: 120px;
     margin-top: -10px;
+    overflow-y: hidden !important;
 }
 
 .protein {
@@ -96,6 +99,7 @@
   margin-right: 80px;
   text-align: end;
   margin-top: -12px;
+  overflow-y: hidden !important;
 }
 
 .pingo {
