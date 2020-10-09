@@ -55,14 +55,15 @@ export default function Slideshow({img}) {
   const [active, setActive] = useState(0);
 
   const images = [
+    project8,
+    project5,
+    project10,
     project4,
     project2,
     project3,
-    project1,
-    project5,
     project7,
-    project8,
-    project10,
+    project1,
+    
   ];
 
   const change = ({nativeEvent}) => {

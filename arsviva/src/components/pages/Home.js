@@ -26,6 +26,7 @@ import iph from '../iph2.jpg'
 
 
 function Home() {
+  
   return (
     <>
       <div className="App">
@@ -39,7 +40,7 @@ function Home() {
             <div className="petaCrta"></div>
             <div className="facebook"><i className="fab fa-facebook-f"></i></div>
             <div className="instagram"><i className="fab fa-instagram"></i></div>
-            <button className="svi">SVI PROJEKTI</button>
+            <Link to="/Architecture"><button className="svi">VIDI RADOVE</button></Link>
           </div>
           <div className="App-mainDiv-rightDiv" >
             <hr className="crta" />
@@ -63,13 +64,13 @@ function Home() {
       <p className="pajdasi">Arsviva studio</p>
       <p className="drugi-pajdasi">Upoznajte naš <br></br> Arsviva studio. </p>
       <div className="zeleni-div"></div>
-      <div className="zeleni-div-2"><img className="a" src={a}></img></div>
+      <Link to='/Studio'><div className="zeleni-div-2"><img className="a" src={a}></img></div></Link>
       <p className="onamaslika"><b>O NAMA   <i class="fa fa-info"></i></b><br></br><br></br>Ako želite saznati nešto o <br></br>našem studiu, kliknite ovdje.</p>
-      <div className="zeleni-div-3"><img className="b" src={arh}></img></div>
+      <Link to='/Architecture'><div className="zeleni-div-3"><img className="b" src={arh}></img></div></Link>
       <p className="onamaslika-2"><b>ARHITEKTURA</b><br></br><br></br>Ako želite saznati nešto o <br></br>našim arhitektonskim projektima, <br></br> kliknite ovdje. <i class="fa fa-building"></i></p>
-      <div className="zeleni-div-4"><img className="c" src={edit}></img></div>
+      <Link to='/Painting'><div className="zeleni-div-4"><img className="c" src={edit}></img></div></Link>
       <p className="onamaslika-3"><b>SLIKARSTVO   <i class="fas fa-palette"></i></b><br></br><br></br>Ako želite saznati nešto o <br></br>našim slikarskim radovima, <br></br> kliknite ovdje.</p>
-      <div className="zeleni-div-5"><img className="d" src={iph}></img></div>
+      <Link to='/Contact'><div className="zeleni-div-5"><img className="d" src={iph}></img></div></Link>
       <p className="onamaslika-4"><b>KONTAKT  </b><br></br><br></br>Ako nas želite kontaktirati, <br></br> kliknite ovdje.  <i class="fa fa-comment"></i></p>
       <Router> </Router>
       <br></br><br></br><br></br><br></br><br></br><br></br>
