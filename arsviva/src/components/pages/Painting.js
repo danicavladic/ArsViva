@@ -61,11 +61,13 @@ function Painting() {
                 <div>
                     <ScrollView horizontal={true} style={styles.container}>
                         <View style={[{ width: 900, height: 400, padding: 15, backgroundColor: "white" }]}>
+                            <hr></hr>
                             <div>
                                 <p className="radovi">Pogledajte sve ostale</p>
                                 <p className="radovi2">radove</p>
                                 <button className="pingo2">VIDI IZLOŽBU</button>
                             </div>
+                            <hr className ="capak"></hr>
                         </View>
 
                         <View style={[{ width: 700, height: 500, padding: 15 }]}>
