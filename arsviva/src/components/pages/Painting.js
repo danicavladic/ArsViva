@@ -5,6 +5,15 @@ import slik from '../13.jpg'
 import slisli from '../12.jpg'
 import Footer from '../Footer';
 import { View, ScrollView, Text, Button, StyleSheet } from 'react-native';
+import prva from '../ljubav.jpg'
+import druga from '../plavikrug_češljanja.jpg'
+import treca from '../plavikrug_kraljica.jpg'
+import cetvrta from '../plavikrug_mojenarančasto.jpg'
+import peta from '../plavikrug_namoru.jpg'
+import sesta from '../ptica.jpg'
+import sedma from '../sidrenja.jpg'
+import osma from '../sretankonj.jpg'
+import deveta from '../titranje_života.jpg'
 
 
 
@@ -27,7 +36,7 @@ function Painting() {
                     <pre className="d4">Gordana Šiško je članica HLD od početka 2019.</pre>
                     <pre className="d2">Sudjelovala je na više zajedničkih izložbi te imala svoju izložbu</pre>
                     <pre className="d3">u veljači 2020.  u galeriji HLD.</pre>
-                    <button className="stresic"><div className="tayloric">VIDI SVE RADOVE</div></button>
+                    <button  className="stresic"><div className="tayloric">VIDI SVE RADOVE</div></button>
 
                 </div>
                 <div className="rightt">
@@ -51,40 +60,65 @@ function Painting() {
                     <pre className="oneD">"uništava". Umjetnica površinu grebe stvarajući tanje i šire linije čime slika dobiva</pre>
                     <pre className="oneD">završnu teksturu, a ujedno i treću dimenziju."</pre>
 
-                    <button className="pingo">VIDI IZLOŽBU</button>
+                    <a href="#radovi"><button className="pingo">VIDI IZLOŽBU</button></a>
                 </div>
             </div>
 
             <hr></hr>
 
-            <div className="mT">
+            <div id="radovi" className="mT">
                 <div>
                     <ScrollView horizontal={true} style={styles.container}>
                         <View style={[{ width: 900, height: 400, padding: 15, backgroundColor: "white" }]}>
                             <hr></hr>
                             <div>
-                                <p className="radovi">Pogledajte sve ostale</p>
-                                <p className="radovi2">radove</p>
-                                <button className="pingo2">VIDI IZLOŽBU</button>
+                                <p className="radovi">Pogledajte</p>
+                                <p className="radovi2">izložbu</p>
+                                <button className="pingo2">ZAPOČNI PRIKAZ</button>
                             </div>
                             <hr className ="capak"></hr>
                         </View>
 
                         <View style={[{ width: 700, height: 500, padding: 15 }]}>
-                            <div><img className="protein" src={sl} ></img></div>
+                            <img className="protein" src={slik} ></img>
                         </View>
 
                         <View style={[{ width: 700, height: 500, padding: 15 }]}>
-                            <div><img className="protein" src={slik} ></img></div>
+                            <img className="protein" src={sedma} ></img>
                         </View>
 
                         <View style={[{ width: 700, height: 500, padding: 15 }]}>
-                            <div><img className="protein" src={slisli} ></img></div>
+                            <img className="protein" src={sesta} ></img>
                         </View>
 
                         <View style={[{ width: 700, height: 500, padding: 15 }]}>
-
+                         <img className="protein" src={treca} ></img>
                         </View>
+
+                        <View style={[{ width: 700, height: 500, padding: 15 }]}>
+                        <img className="protein" src={peta} ></img>
+                        </View>
+
+                        <View style={[{ width: 700, height: 500, padding: 15 }]}>
+                        <img className="protein" src={druga} ></img>
+                        </View>
+
+                        <View style={[{ width: 700, height: 500, padding: 15 }]}>
+                        <img className="protein" src={deveta} ></img>
+                        </View>
+
+                        <View style={[{ width: 700, height: 500, padding: 15 }]}>
+                        <img className="protein" src={cetvrta} ></img>
+                        </View>
+
+                        <View style={[{ width: 700, height: 500, padding: 15 }]}>
+                        <img className="protein" src={prva} ></img>
+                        </View>
+
+                        <View style={[{ width: 700, height: 500, padding: 15 }]}>
+                        <img className="protein" src={osma} ></img>
+                        </View>
+
                     </ScrollView>
                 </div>
             </div>
