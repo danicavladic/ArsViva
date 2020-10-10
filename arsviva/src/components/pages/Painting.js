@@ -4,7 +4,7 @@ import sl from '../11.jpg'
 import slik from '../13.jpg'
 import slisli from '../12.jpg'
 import Footer from '../Footer';
-import { View, ScrollView, Text, Button, StyleSheet } from 'react-native';
+import { View, ScrollView, Text, Button, StyleSheet, TouchableOpacity, Animated } from 'react-native';
 import prva from '../ljubav.jpg'
 import druga from '../plavikrug_češljanja.jpg'
 import treca from '../plavikrug_kraljica.jpg'
@@ -37,8 +37,10 @@ import { useRef } from 'react';
 
 
 
+
 function Painting() {
 
+   
     const styles = StyleSheet.create({
         container: {
             flex: 1,
@@ -47,6 +49,9 @@ function Painting() {
     const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);  
     const myRef = useRef(null)
     const executeScroll = () => scrollToRef(myRef)
+    const myRef2 = useRef(null)
+    const executeScroll2 = () => scrollToRef(myRef2)
+   
 
 
     return (
@@ -58,7 +63,7 @@ function Painting() {
                     <pre className="d4">Gordana Šiško je članica HLD od početka 2019.</pre>
                     <pre className="d2">Sudjelovala je na više zajedničkih izložbi te imala svoju izložbu</pre>
                     <pre className="d3">u veljači 2020.  u galeriji HLD.</pre>
-                    <button  className="stresic"><div className="tayloric">VIDI SVE RADOVE</div></button>
+                    <button  onClick={executeScroll2} className="stresic"><div className="tayloric">VIDI SVE RADOVE</div></button>
 
                 </div>
                 <div className="rightt">
@@ -90,7 +95,7 @@ function Painting() {
             
 
             <div className="palmer">
-                <div>
+                <div ref={myRef2}>
                 <p className="sok">OSTALI</p>
                 <p className="sokic">RADOVI</p>
                 </div>
@@ -105,6 +110,7 @@ function Painting() {
             
 
             <div className="palmer1">
+           
                 <img className="w1" src={w1}></img>
                 <img className="w2" src={w2}></img>
             </div>
@@ -155,7 +161,9 @@ function Painting() {
 
             <div ref={myRef} className="mT">
                 <div>
-                    <ScrollView horizontal={true} style={styles.container}>
+                    <ScrollView  horizontal={true} style={styles.container}
+                    
+                    >
                         <View style={[{ width: 900, height: 400, padding: 15, backgroundColor: "white" }]}>
                             <hr></hr>
                             <div>
@@ -221,7 +229,7 @@ function Painting() {
 
 
 
-export default Painting 
+export default Painting;
 
 /*
 <div className="zadnjiFlex">
