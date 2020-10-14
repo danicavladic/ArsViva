@@ -63,7 +63,7 @@ function Painting() {
                     <pre className="d4">Gordana Šiško je članica HLD od početka 2019.</pre>
                     <pre className="d2">Sudjelovala je na više zajedničkih izložbi te imala svoju izložbu</pre>
                     <pre className="d3">u veljači 2020.  u galeriji HLD.</pre>
-                    <button  onClick={executeScroll2} className="stresic"><div className="tayloric">VIDI SVE RADOVE</div></button>
+                    <button  onClick={executeScroll2} className="stresic1"><div className="tayloric">VIDI SVE RADOVE</div></button>
 
                 </div>
                 <div className="rightt">

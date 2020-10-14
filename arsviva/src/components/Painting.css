@@ -234,6 +234,24 @@
   margin-top: 100px;
 }
 
+.stresic1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  background-color: #808080;
+  color: white;
+  text-align: center;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  vertical-align: middle;
+  border-radius: 40px;
+  font-size: 15px;
+  margin-left: 115px;
+  margin-top: 100px;
+}
+
 .taylor {
   text-align: center;
 }
@@ -491,9 +509,150 @@
   font-size: 17px;
   font-family: 'Baloo Tammudu 2', cursive;
   margin-left: 120px;
-  margin-top: -10px;
+  margin-top: -10px; 
+}
+
+@media screen and (max-width: 1100px) {
+  .flexx {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .flexx {
+    flex-direction: column;
+  }
+  .leftt {
+    margin-bottom: 100px;
+  }
+  .flexic {
+    flex-direction: column-reverse;
+  }
+  .rightt {
+    width: 800px;
+    height: 800px;
+  }
+  .dominik {
+    margin-left: 240px;
+  }
+  .pingo {
+    margin-left: 600px;
+  }
+  .sliks {
+    width: 80%;
+    margin-left: 95px;
+  }
+  .palmer {
+    flex-direction: column;
+  }
+  .love {
+    margin-left: 100px;
+  }
+  .song {
+    margin-left: 200px;
+    margin-top: -260px;
+  }
+  .listen {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .flexx {
+    flex-direction: column;
+  }
+  .leftt {
+    margin-bottom: 100px;
+  }
+  .flexic {
+    flex-direction: column-reverse;
+  }
+  .rightt {
+    width: 670px;
+    height: 670px;
+  }
+  .dominik {
+    margin-left: 150px;
+  }
+  .oneD {
+    margin-left: 150px;
+  }
+  .pingo {
+    margin-left: 520px;
+  } 
+  .sliks {
+    width: 85%;
+    margin-left: 45px;
+  }
+  .palmer {
+    flex-direction: column;
+  }
+  .love {
+    margin-left: 100px;
+  }
+  .song {
+    margin-left: 200px;
+    margin-top: -260px;
+  }
+  .listen {
+    margin-top: 150px;
+  }
   
 }
+
+@media screen and (max-width: 510px) {
+  .flexx {
+    flex-direction: column;
+  }
+  .flexic {
+    flex-direction: column-reverse;
+  }
+  .rightt {
+    width: 405px;
+    height: 405px;
+  }
+  .leftt {
+    margin-left: -80px;
+  }
+  .love {
+    margin-left: 120px;
+  }
+  .song {
+    margin-top: -280px;
+    margin-left: 200px;
+  }
+  .dominik {
+    margin-left: -100px;
+  }
+  .oneD {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .pingo {
+    margin-left: 270px;
+  }
+  .sliks {
+    margin-left: 30px;
+    width: 80%;
+  }
+  .palmer {
+    margin-left: -80px;
+    flex-direction: column;
+  }
+  .hear {
+    margin-left: 45px;
+  }
+  .listen {
+    margin-left: 45px;
+    margin-top: 150px;
+  }
+  .stresic {
+    margin-left: 40px;
+  }
+  
+}
+
+
 
 
 
