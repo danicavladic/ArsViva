@@ -12,6 +12,7 @@ import sl1 from '../st2.JPG'
 import s2 from '../kapelica.jpg'
 import s3 from '../kon.JPG'
 import { useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -45,7 +46,7 @@ function Architecture() {
                 <p className="blabla2">VIDI OSTALE PROJEKTE</p>
                 <p className="blabla">This is so cooldhhdhfhdhfhdshfjdsfjjfdj <br></br> bla bla </p>
                 <hr ref={myRef3} className="cr"></hr>
-                <div className="kart"><OtherProjects  src={sl}></OtherProjects></div>
+                <Link to="/Project"><div className="kart"><OtherProjects  src={sl}></OtherProjects></div></Link>
                 <div className="kart-2"><OtherProjects  src={sl1}></OtherProjects></div>
                 <div className="kart-3"><OtherProjects  src={sli}></OtherProjects></div>
                 <div className="kart-2"><OtherProjects  src={s2}></OtherProjects></div>
