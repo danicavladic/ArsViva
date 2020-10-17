@@ -1,62 +1,71 @@
-.flexx {
+.flex-painting {
   display: inline-flex;
-  margin-top: 50px;
-}
-
-.leftt {
-  width: 640px;
-  height: 600px;
+  margin-top: 5%;
+  width: 100%;
+  height: 100vh;
   background-color: white;
-  color: black;
 }
 
-.rightt {
-  width: 700px;
+.left-painting {
+  width: 44.45%;
+  color: black;
+  background-color: white;
+}
+
+.right-painting {
+  width: 55.55%;
+  height: 100%;
+  background-color: white;
+}
+
+.first-square {
+  width: 87%;
+  height: 80%;
   background-color: rgb(36, 47, 53);
 }
 
-.phtoo {
+.first-photo-painting {
   height: 100%;
   width: 100%;
-  margin-top: 115px;
-  margin-left: 100px;
+  margin-top: 15%;
+  margin-left: 15%;
 }
 
-.sok {
+.slikarski {
   font-family: 'Baloo Tammudu 2', cursive;
   font-size: 80px;
-  margin-left: 120px;
-  margin-top: 150px;
+  margin-left: 18%;
+  margin-top: 23%;
 }
 
-.sokic {
+.rad {
   font-family: 'Baloo Tammudu 2', cursive;
   font-size: 50px;
-  margin-left: 120px;
-  margin-top: -50px;
+  margin-left: 18%;
+  margin-top: -7.5%;
 }
 
-.d4 {
+.top-text {
     font-size: 17px;
     font-family: 'Baloo Tammudu 2', cursive;
-    margin-left: 120px;
-    margin-top: 40px;
+    margin-left: 18%;
+    margin-top: 8%;
     overflow-y: hidden !important;
 }
 
-.d2 {
+.middle-text {
     font-size: 17px;
     font-family: 'Baloo Tammudu 2', cursive;
-    margin-left: 120px;
-    margin-top: -10px;
+    margin-left: 18%;
+    margin-top: -2%;
     overflow-y: hidden !important;
 }
 
-.d3 {
+.end-text {
     font-size: 17px;
     font-family: 'Baloo Tammudu 2', cursive;
-    margin-left: 120px;
-    margin-top: -10px;
+    margin-left: 18%;
+    margin-top: -2%;
     overflow-y: hidden !important;
 }
 
@@ -234,29 +243,29 @@
   margin-top: 100px;
 }
 
-.stresic1 {
+.first-see-all-button {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 500;
   background-color: #808080;
   color: white;
   text-align: center;
   border: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-top: 2.7%;
+  padding-bottom: 2.7%;
+  padding-left: 3.8%;
+  padding-right: 3.8%;
   vertical-align: middle;
   border-radius: 40px;
   font-size: 15px;
-  margin-left: 115px;
-  margin-top: 100px;
+  margin-left: 18%;
+  margin-top: 18%;
 }
 
 .taylor {
   text-align: center;
 }
 
-.tayloric {
+.text-center-button {
   text-align: center;
 }
 
@@ -512,26 +521,34 @@
   margin-top: -10px; 
 }
 
-@media screen and (max-width: 1100px) {
-  .flexx {
+@media screen and (max-width: 1200px) {
+  .flex-painting {
     flex-direction: column;
+  }
+  .left-painting {
+    margin-bottom: 100px;
+  }
+  .right-painting {
+    width: 800px;
+    height: 800px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .flexx {
+  /*.flex-painting {
     flex-direction: column;
   }
-  .leftt {
+  .left-painting {
     margin-bottom: 100px;
   }
+  .right-painting {
+    width: 800px;
+    height: 800px;
+  } */
   .flexic {
     flex-direction: column-reverse;
   }
-  .rightt {
-    width: 800px;
-    height: 800px;
-  }
+  
   .dominik {
     margin-left: 240px;
   }
