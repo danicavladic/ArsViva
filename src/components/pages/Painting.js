@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Painting.css';
-import sl from '../11.jpg'
-import slik from '../13.jpg'
+import bijela_slika from '../11.jpg'
+import crvena_slika from '../13.jpg'
 import Footer from '../Footer';
 import { View, ScrollView, StyleSheet } from 'react-native';
 import prva from '../ljubav.jpg'
@@ -52,60 +52,52 @@ function Painting() {
                 <div className="left-painting">
                     <p className="slikarski">SLIKARSKI</p>
                     <p className="rad">RADOVI</p>
-                    <pre className="top-text">Gordana Šiško je članica HLD od početka 2019.</pre>
-                    <pre className="middle-text">Sudjelovala je na više zajedničkih izložbi te imala svoju izložbu</pre>
-                    <pre className="end-text">u veljači 2020.  u galeriji HLD.</pre>
-                    <button onClick={executeScroll2} className="first-see-all-button"><div className="text-center-button">VIDI SVE RADOVE</div></button>
+                    
                 </div>
                 <div className="right-painting">
                     <div className="first-square">
-                        <img src={sl} alt={"desna slika"} className="first-photo-painting"></img>
-                    </div>
-                    
+                        <img src={bijela_slika} alt={"desna slika"} className="first-photo-painting"></img>
+                    </div>  
                 </div>
             </div>
-
-            <div className="flexic">
+            <p className="top-text">Gordana Šiško je članica HLD od početka 2019.</p>
+            <p className="middle-text">Sudjelovala je na više zajedničkih izložbi te imala svoju izložbu</p>
+            <p className="end-text">u veljači 2020.  u galeriji HLD.</p>
+            <button onClick={executeScroll2} className="first-see-all-button"><div className="text-center-button">VIDI SVE RADOVE</div></button>
+            <div className="second-flex-painting">
                 <div>
-               
-                <img src={slik} alt={"lijeva slika"} className="sliks"></img>
+                    <img src={crvena_slika} alt={"lijeva slika"} className="second-photo-painting"></img>
                 </div>
                 <div>
-                    <div className="stol"><p className="dominik"> crna</p> <p className="nikola"> BOJA</p> <p className="jaki"> i</p> <p className="jasna"> .</p></div>
-                    <pre className="oneD">Uz ovu izložbu, kustosica Saša Brkić Kristensen je između ostalog napisala:</pre>
-                    <pre className="oneD">"... Radi se o apstraktnim kompozicijama velikog formata, snažnih</pre>
-                    <pre className="oneD">"i kontrastnih kombinacija boja. Umjetnica koristi suzdržanu paletu, svodeći je</pre>
-                    <pre className="oneD">primarno na nekoliko nijansi plave, crvene, crne i bijele. Velikim plohama i</pre>
-                    <pre className="oneD">energičnim potezima ona stvara naoko slične, a opet različite radove od kojih</pre>
-                    <pre className="oneD">je svaki prava eksplozija boja, koje autorica slaže na platno u plohama</pre>
-                    <pre className="oneD">različitog usmjerenja. Ona zatim svoje radove dovršava na način da površinu</pre>
-                    <pre className="oneD">"uništava". Umjetnica površinu grebe stvarajući tanje i šire linije čime slika dobiva</pre>
-                    <pre className="oneD">završnu teksturu, a ujedno i treću dimenziju."</pre>
-
+                    <div className="wrap-text"><p className="dominik"> crna</p> <p className="nikola"> BOJA</p> <p className="jaki"> i</p> <p className="jasna"> .</p></div>
+                    <pre className="long-text">Uz ovu izložbu, kustosica Saša Brkić Kristensen je između ostalog napisala:</pre>
+                    <pre className="long-text">"... Radi se o apstraktnim kompozicijama velikog formata, snažnih</pre>
+                    <pre className="long-text">"i kontrastnih kombinacija boja. Umjetnica koristi suzdržanu paletu, svodeći je</pre>
+                    <pre className="long-text">primarno na nekoliko nijansi plave, crvene, crne i bijele. Velikim plohama i</pre>
+                    <pre className="long-text">energičnim potezima ona stvara naoko slične, a opet različite radove od kojih</pre>
+                    <pre className="long-text">je svaki prava eksplozija boja, koje autorica slaže na platno u plohama</pre>
+                    <pre className="long-text">različitog usmjerenja. Ona zatim svoje radove dovršava na način da površinu</pre>
+                    <pre className="long-text">"uništava". Umjetnica površinu grebe stvarajući tanje i šire linije čime slika dobiva</pre>
+                    <pre className="long-text">završnu teksturu, a ujedno i treću dimenziju."</pre>
                     <button onClick={executeScroll} className="pingo">VIDI IZLOŽBU</button>
                 </div>
             </div>
-
             <hr></hr>
-
-
-            <div className="palmer">
-                <div ref={myRef2}>
-                    <p className="sok">OSTALI</p>
-                    <p className="sokic">RADOVI</p>
+            <div className="third-flex-painting">
+                <div  className="second-left" ref={myRef2}>
+                    <p className="ostali">OSTALI</p>
+                    <p className="rad2">RADOVI</p>
                 </div>
-                <div className="love"></div>
-                <div className="song"></div>
-
+                <div className="squares">
+                    <div className="green-square">
+                        <div className="grey-square"></div>
+                    </div>
+                </div>
             </div>
-
             <p className="listen">Neki tekst koji opisuje ostale slike. Treba smisliti</p>
             <p className="hear"> neki tekst ovdje ako on vec ne postoji.</p>
             <button className="stresic"><div className="tayloric">VIDI SVE RADOVE</div></button>
-
-
             <div className="palmer1">
-
                 <img className="w1" src={w1}></img>
                 <img className="w2" src={w2}></img>
             </div>
@@ -170,7 +162,7 @@ function Painting() {
                         </View>
 
                         <View style={[{ width: 700, height: 500, padding: 15 }]}>
-                            <img className="protein" src={slik} ></img>
+                            <img className="protein" src={crvena_slika} ></img>
                         </View>
 
                         <View style={[{ width: 700, height: 500, padding: 15 }]}>

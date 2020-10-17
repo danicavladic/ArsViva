@@ -3,13 +3,13 @@
   margin-top: 5%;
   width: 100%;
   height: 100vh;
-  background-color: white;
 }
 
 .left-painting {
   width: 44.45%;
   color: black;
   background-color: white;
+  margin-right: 5%;
 }
 
 .right-painting {
@@ -33,40 +33,56 @@
 
 .slikarski {
   font-family: 'Baloo Tammudu 2', cursive;
-  font-size: 80px;
+  font-size: 10vh;
   margin-left: 18%;
   margin-top: 23%;
 }
 
 .rad {
   font-family: 'Baloo Tammudu 2', cursive;
-  font-size: 50px;
+  font-size: 6vh;
   margin-left: 18%;
   margin-top: -7.5%;
 }
 
 .top-text {
-    font-size: 17px;
+    font-size: 2vh;
     font-family: 'Baloo Tammudu 2', cursive;
-    margin-left: 18%;
-    margin-top: 8%;
-    overflow-y: hidden !important;
+    margin-left: 7.5%;
+    margin-top: -30%;  
 }
 
 .middle-text {
-    font-size: 17px;
+    font-size: 2vh;
     font-family: 'Baloo Tammudu 2', cursive;
-    margin-left: 18%;
-    margin-top: -2%;
-    overflow-y: hidden !important;
+    margin-left: 7.5%;
+    margin-top: -1%; 
 }
 
 .end-text {
-    font-size: 17px;
+    font-size: 2vh;
     font-family: 'Baloo Tammudu 2', cursive;
-    margin-left: 18%;
-    margin-top: -2%;
-    overflow-y: hidden !important;
+    margin-left: 7.5%;
+    margin-top: -1%;
+}
+
+.first-see-all-button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  background-color: #808080;
+  color: white;
+  text-align: center;
+  border: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1.8%;
+  padding-right: 1.8%;
+  vertical-align: middle;
+  border-radius: 40px;
+  font-size: 1.8vh;
+  margin-left: 7.5%;
+  margin-bottom: 12%;
+  margin-top: 8%;
 }
 
 .protein {
@@ -75,24 +91,66 @@
   background-size: contain;
 }
 
-.flexic {
+.second-flex-painting {
   display: inline-flex;
 }
 
-.sliks {
-  width: 70%;
-  height: 90%;
-  margin-top: 70px;
-  margin-left: 120px;
+.second-photo-painting {
+  width: 78%;
+  height: 120%;
+  margin-top: -13%;
+  margin-left: 13%;
 }
 
-.stol {
-  font-size: 30px;
-  font-family: 'Baloo Tammudu 2', cursive;
-  font-weight: 700;
-  margin-top: 200px;
+.wrap-text {
+  margin-top: 9%;
   margin-left: 420px;
   display: inline-flex;
+}
+
+.ostali {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 10vh;
+  margin-left: 43%;
+  margin-top: 60%;
+  color: black;
+}
+
+.rad2 {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-size: 6vh;
+  margin-left: 44%;
+  margin-top: -18%;
+  color: black;
+}
+
+.third-flex-painting {
+  display: inline-flex;
+}
+
+.second-left {
+  background-color: red;
+  width: 100%;
+}
+
+.squares {
+ 
+}
+
+.green-square {
+  background-color: rgb(36, 47, 53);
+  width: 350px;
+  height: 350px;
+  margin-left: 450px;
+  margin-top: 100px; 
+}
+
+.grey-square {
+  background-color: #c8c8c8;
+  width: 350px;
+  height: 350px;
+  margin-top: 210px;
+  margin-left: -220px;
 }
 
 .pingvin {
@@ -103,7 +161,7 @@
 
 }
 
-.oneD {
+.long-text {
   font-size: 17px;
   font-family: 'Baloo Tammudu 2', cursive;
   margin-right: 80px;
@@ -243,23 +301,7 @@
   margin-top: 100px;
 }
 
-.first-see-all-button {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 500;
-  background-color: #808080;
-  color: white;
-  text-align: center;
-  border: none;
-  padding-top: 2.7%;
-  padding-bottom: 2.7%;
-  padding-left: 3.8%;
-  padding-right: 3.8%;
-  vertical-align: middle;
-  border-radius: 40px;
-  font-size: 15px;
-  margin-left: 18%;
-  margin-top: 18%;
-}
+
 
 .taylor {
   text-align: center;
@@ -448,63 +490,12 @@
   margin-top: -75px;
 }
 
-.palmer {
-  display: inline-flex;
-}
+
 
 .palmer1 {
   display: inline-flex;
   margin-left: 150px;
   margin-top: 100px;
-}
-
-.palmer2 {
-  display: inline-flex; 
-}
-
-.palmer3 {
-  display: inline-flex; 
-}
-
-.palmer4 {
-  display: inline-flex; 
-}
-
-.palmer5 {
-  display: inline-flex; 
-}
-
-.palmer6 {
-  display: inline-flex; 
-}
-
-.palmer7 {
-  display: inline-flex; 
-}
-
-.palmer8 {
-  display: inline-flex; 
-}
-
-.palmer9 {
-  display: inline-flex;
-}
-
-.love {
-  background-color: rgb(36, 47, 53);
-  width: 350px;
-  height: 350px;
-  margin-left: 450px;
-  margin-top: 100px;
-  
-}
-
-.song {
-  background-color: #c8c8c8;
-  width: 350px;
-  height: 350px;
-  margin-top: 210px;
-  margin-left: -220px;
 }
 
 .listen {
@@ -525,13 +516,25 @@
   .flex-painting {
     flex-direction: column;
   }
-  .left-painting {
-    margin-bottom: 100px;
+
+  .left-painting { 
   }
-  .right-painting {
-    width: 800px;
-    height: 800px;
+
+  .right-painting { 
   }
+
+  .top-text {
+    margin-top: 20%;
+  }
+
+  .first-see-all-button {
+    margin-top: -110%;
+  }
+
+  .second-flex-painting {
+    flex-direction: column-reverse;
+  }
+
 }
 
 @media screen and (max-width: 900px) {
